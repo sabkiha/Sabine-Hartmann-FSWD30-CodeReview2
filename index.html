@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<title>Price Comparison for New Years Eve Trips</title>
+<!--	<style>@import url('https://fonts.googleapis.com/css?family=Hind');</style>-->
+</head>
+<body>
+	<header>
+		<!-- logo and Page Title!-->
+
+		<img src="logo.png" alt="Price Comparison logo">
+
+		<p>Price comparison</p>
+
+	</header>
+
+	<main> <!--Main Section of the page with city cards and comparison-->
+		
+		<div class="row">
+			<div class="city">
+				<div class="img">
+					<img src="amsterdam.jpg" alt="view of Grachtenpand with illuminated bridge">
+				</div>
+				<div class="caption">
+					<div class="captiontext">
+						<p class="cityName">
+							<table>
+								<tr>
+									<td class="cellA">Amsterdam</td>
+									<td class="cellB"><span id="ams"></span></td>
+									
+								</tr>
+								<tr>
+									<td class="cell">The Netherlands</td>
+									<td class="cellR">Average price</td>
+								</tr>
+							</table>
+					</div>
+				</div>
+			</div>
+			<div class="city">
+				<div class="img">
+					<img src="london.jpg" alt="view across the Thames with 'Big Ben' clocktower, Houses of Parliament and Westminster Bridge">
+				</div>
+				<div class="caption">
+					<div class="captiontext">
+						<p class="cityName"> 
+							<table>
+								<tr>
+									<td class="cellA">London</td>
+									<td class="cellB"><span id="lon"></span></td>
+									
+								</tr>
+								<tr>
+									<td class="cell">United Kingdom</td>
+									<td class="cellR">Average price</td>
+								</tr>
+							</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="text">
+			<div>
+				<p><span>Amsterdam</span> will be more affordable than <span>London</span> for the New Year's celebration.</p>
+			</div>
+			<div>
+				<p>Difference in price</p>
+			</div>
+			<div id="priceDifference">
+			</div>
+		</div>
+	</main>
+
+
+	<script type="text/javascript" src="JS-script.js"></script>
+<script type="text/javascript" src="ams.js"></script>
+<script type="text/javascript" src="lon.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+	/* colour: Text Netherlands #BCBCBC*/
+	/* colour:  text price ; 
+	'*/
+
+body {
+	font-family: Arial, sans-serif;
+}
+header img {
+	height: 40px;
+	width: 40px;
+	margin-left: 40px;
+	margin-right: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+header {
+	display: flex;
+	background-color: #003680;
+	height: 55px;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* Level 1 */
+main {
+	background-color: #E5EAEE;
+}	/* Level 2*/
+	.row{
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		}	/* Level 3*/
+		.city {
+	
+			background-color: white;
+			width: 249px;
+			margin: 20px;
+			border:#696969;
+			border-width: medium;
+			padding: 0;
+		}	/* Level 4*/
+			.img {
+				display: flex;
+			}
+			.caption{
+			}
+				.captiontext {
+					flex: 2;
+					}
+				main div div p {
+					font-size: 14px;
+				}
+
+				table {
+					width: 249px;
+					padding: 3px;
+					font-size: 16px;
+				}
+				.cellA {
+					color: #56BCDD;
+					font-weight: bold;
+				}
+				.cellR {
+					color: #616263;
+					text-align: right;
+				}
+				.cell {
+					color: #616263;
+				}
+				.cellB {
+					color: #616263;
+					text-align: right;
+					font-size: 22px;
+				}
+		
+	.text {
+		display: flex;
+		flex-direction: column;
+		color: #616263;
+	}
+	.text div p {
+		font-size: 18px;
+		line-height: 22px;
+		padding: 0;
+		margin: 0;
+	}
+	.text div p span {
+		color: #3c3c3c;
+		font-weight: bold;
+	}
+	.text div {
+		margin: auto;
+		font-size: 30px;
+		padding: 0;
+	}
+
+			#priceDifference{
+				margin: auto;
+				width: 95px;
+				height: 35px;
+				border: 2px solid #21A6D3;
+				border-radius: 8px;
+				padding: 5px 10px 5px 10px;
+				background-color: #21A6D3;
+				color: white;
+				margin-top: 10px;
+				font-weight: bold;
+				text-align: center;
+			}
+
+
+
+
+
+
+
+
